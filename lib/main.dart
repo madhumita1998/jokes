@@ -78,52 +78,15 @@ class _MyAppState extends State<MyApp> {
                     Padding(
                       padding: const EdgeInsets.all(10.0),
                       child: Container(
-                      // height: 50,
-                      // width: 250,
                         padding: const EdgeInsets.only(top: 15, bottom: 15, left: 10, right: 10),
                       decoration:  BoxDecoration(
                         borderRadius: const BorderRadius.all(
                           Radius.circular(10.0),),
-                        // boxShadow: const [
-                        //   BoxShadow(
-                        //     color: Color(0xffc7c7c7),
-                        //     spreadRadius: 1,
-                        //     blurRadius: 5,
-                        //     offset: Offset(0,3),
-                        //   ),
-                        // ],
                         color: const Color(0xFFCAE592).withOpacity(0.4),
                       ),
-                      child:  Text(jokes[index], style: TextStyle(color: Colors.black),),
+                      child:  Text(jokes[index], style: const TextStyle(color: Colors.black),),
                   ),
                     );
-
-                  //   Container(
-                  //     height: 50,
-                  //       width: 100,
-                  //       decoration: const BoxDecoration(
-                  //         borderRadius: BorderRadius.all(
-                  //           Radius.circular(10.0),),
-                  //         boxShadow: [
-                  //           BoxShadow(
-                  //             color: Color(0xffc7c7c7),
-                  //             spreadRadius: 1,
-                  //             blurRadius: 5,
-                  //             offset: Offset(0,5),
-                  //           ),
-                  //         ],
-                  //         color: Color(0xFFCAE592),
-                  //         // gradient: LinearGradient(
-                  //         //   begin: Alignment.centerLeft,
-                  //         //   end: Alignment.centerRight,
-                  //         //   colors: <Color>[
-                  //         //     Color(0xFFCAE592),
-                  //         //     Color(0xFF98CF33),
-                  //         //   ],
-                  //         // ),
-                  //       ),
-                  //   child: Text('• ${jokes[index]}'),
-                  // );
                 },
               ),
             ),
